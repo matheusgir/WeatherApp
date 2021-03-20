@@ -7,22 +7,22 @@ export default function Conditions( weather) {
         <View style={styles.container}>
             <View style={styles.condition}>
                 <Feather  name="wind" size={23} color="#1ed6ff" />
-                <Text>{weather.results.wind_speedy}</Text>
+                <Text>{weather.wind_speedy}</Text>
             </View>
 
             <View style={styles.condition}>
                 <MaterialCommunityIcons  name="weather-sunset-up" size={23} color="#1ed6ff" />
-                <Text>{weather.results.sunrise}</Text>
+                <Text>{weather.sunrise}</Text>
             </View>
 
             <View style={styles.condition}>
                 <MaterialCommunityIcons  name="weather-sunset-down" size={23} color="#1ed6ff" />
-                <Text>{weather.results.sunset}</Text>
+                <Text>{weather.sunset}</Text>
             </View>
 
             <View style={styles.condition}>
                 <Feather  name="droplet" size={23} color="#1ed6ff" />
-                <Text>{weather.results.humidity}</Text>
+                <Text>{weather.humidity}</Text>
             </View>
 
         </View>
